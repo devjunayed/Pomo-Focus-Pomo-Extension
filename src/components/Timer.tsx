@@ -49,7 +49,6 @@ function Timer() {
 
   return (
     <>
-    <h3>{count}/10</h3>
       <h1>
         {
           <span>

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
 import Timer from "./components/Timer";
+import Tasks from "./components/Tasks";
 
 function App() {
   useEffect(() => {
@@ -11,7 +12,10 @@ function App() {
     }
   }, []);
 
-  return <Timer />;
+  return <div>
+    <Timer />
+    <Tasks />
+  </div>;
 }
 
 export default App;
