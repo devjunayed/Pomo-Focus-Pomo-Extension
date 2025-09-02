@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Pomo Focus Pomo",
+    "icons": {
+        "32": "vite.svg"
+    },
+    "permissions" : ["notifications"],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
